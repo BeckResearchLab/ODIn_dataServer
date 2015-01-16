@@ -1,0 +1,14 @@
+<FORM action="/test" method="GET">
+    <P><H4>Set Servo Center</H4></P>
+    <LABEL for="servo">Servo: </LABEL>
+              <SELECT name="s">
+			<OPTION value="0">Left Front</OPTION>
+			<OPTION value="1">Right Front</OPTION>
+			<OPTION value="2">Left Back</OPTION>
+			<OPTION value="3">Right Back</OPTION>
+		</SELECT>
+    <LABEL for="pw">Pulse width: </LABEL>
+              <INPUT type="text" name="pw"><BR>
+    <INPUT type="submit" value="Set"> <INPUT type="reset">
+    </P>
+ </FORM>

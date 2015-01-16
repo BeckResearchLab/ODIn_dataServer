@@ -1,0 +1,9 @@
+<HR>
+<P><H4>Configure</H4></P>
+<TABLE>
+	<TR><TD><B>Core settings</B></TD><TD COLSPAN="2"><HR></TD></TR>
+		<FORM action="/config" method="GET">
+		<TR><TD><LABEL for="filename">Log filename:</LABEL></TD><TD><INPUT type="text" name="filename" value="%s"></TD><TD></TD></TR>
+		<TR><TD COLSPAN=2><INPUT type="submit" value="Set"/><INPUT type="reset" value="Reset"/></TD><TD/></TR>
+	</TABLE>
+ </FORM>

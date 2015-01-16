@@ -1,0 +1,6 @@
+<TABLE WIDTH="600">
+<TR>
+	<TH ALIGN="right">Total packets received:</TH><TD>%d</TD>
+</TR>
+</TABLE>
+<HR>

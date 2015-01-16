@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cd /Volumes/Drobo1/fred/OD_data
+
+while [ 1 ]
+do
+	odfile=`date | sed -e "s/ /_/g" -e "s/:/_/g" `.OD.txt
+	echo "(re)starting service w/ output saved to $odfile"
+	/Volumes/Drobo1/fred/ODv2/dataServer 8577 $odfile 7251
+done
