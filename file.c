@@ -28,7 +28,7 @@ void file_open_log(char *filename) {
 		free(dataServer.log_file);
 
 	dataServer.log_file = strdup(filename);
-	if ((dataServer.fp = fopen(dataServer.log_file, "w")) == NULL) {
+	if ((dataServer.fp = fopen(dataServer.log_file, "a")) == NULL) {
 		fatal_error("%s: unable to open output file '%s'\n", "file_open_log", dataServer.log_file);
 	}
 
